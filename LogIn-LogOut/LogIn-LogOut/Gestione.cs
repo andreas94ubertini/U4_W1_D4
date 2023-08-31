@@ -57,7 +57,7 @@ namespace LogIn_LogOut
                     } while (key != ConsoleKey.Enter);
                    
                     int psw = int.Parse(pass);
-                 
+                    Console.WriteLine();
                     Console.WriteLine("Conferma Password");
 
                     string passC = string.Empty;
@@ -77,15 +77,17 @@ namespace LogIn_LogOut
                             passC += keyInfo.KeyChar;
                         }
                     } while (key2 != ConsoleKey.Enter);
-                    Console.WriteLine(passC);
+                    
                     int Confirmedpsw = int.Parse(passC);
                     if (psw != Confirmedpsw)
                     {
+                        Console.WriteLine();
                         Console.WriteLine("Le password non corrispondono");
                         Menu();
                     }
                     else
                     {
+                        Console.WriteLine();
                         Console.WriteLine("Utente loggato");
                         Utente user = new Utente(username, psw, Confirmedpsw);
                         DateTime userLogData = DateTime.Now;
@@ -105,6 +107,7 @@ namespace LogIn_LogOut
                 }
                 catch
                 {
+                    Console.WriteLine();
                     Console.WriteLine("La password deve contenero solo numeri");
                     Menu();
                 }
