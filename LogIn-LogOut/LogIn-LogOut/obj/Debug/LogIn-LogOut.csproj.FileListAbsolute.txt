@@ -1,0 +1,7 @@
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\LogIn-LogOut\LogIn-LogOut\bin\Debug\LogIn-LogOut.exe.config
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\LogIn-LogOut\LogIn-LogOut\bin\Debug\LogIn-LogOut.exe
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\LogIn-LogOut\LogIn-LogOut\bin\Debug\LogIn-LogOut.pdb
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\LogIn-LogOut\LogIn-LogOut\obj\Debug\LogIn-LogOut.csproj.AssemblyReference.cache
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\LogIn-LogOut\LogIn-LogOut\obj\Debug\LogIn-LogOut.csproj.CoreCompileInputs.cache
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\LogIn-LogOut\LogIn-LogOut\obj\Debug\LogIn-LogOut.exe
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\LogIn-LogOut\LogIn-LogOut\obj\Debug\LogIn-LogOut.pdb

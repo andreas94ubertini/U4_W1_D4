@@ -1,0 +1,7 @@
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\EffettuaOrdine\EffettuaOrdine\bin\Debug\EffettuaOrdine.exe.config
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\EffettuaOrdine\EffettuaOrdine\bin\Debug\EffettuaOrdine.exe
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\EffettuaOrdine\EffettuaOrdine\bin\Debug\EffettuaOrdine.pdb
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\EffettuaOrdine\EffettuaOrdine\obj\Debug\EffettuaOrdine.csproj.AssemblyReference.cache
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\EffettuaOrdine\EffettuaOrdine\obj\Debug\EffettuaOrdine.csproj.CoreCompileInputs.cache
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\EffettuaOrdine\EffettuaOrdine\obj\Debug\EffettuaOrdine.exe
+C:\Users\ubert\Desktop\Epicode\U4_W1_D4\EffettuaOrdine\EffettuaOrdine\obj\Debug\EffettuaOrdine.pdb
