@@ -36,17 +36,59 @@ namespace LogIn_LogOut
                 string username = Console.ReadLine();
                 try
                 {
+                    
                     Console.WriteLine("Inserisci Password");
-                    int psw = int.Parse(Console.ReadLine());
+                    string pass = string.Empty;
+                    ConsoleKey key;
+                    do
+                    {
+                        var keyInfo = Console.ReadKey(intercept: true);
+                        key = keyInfo.Key;
+
+                        if (key == ConsoleKey.Backspace && pass.Length > 0)
+                        {
+                            Console.Write("\b \b");
+                        }
+                        else if (!char.IsControl(keyInfo.KeyChar))
+                        {
+                            Console.Write("*");
+                            pass += keyInfo.KeyChar;
+                        }
+                    } while (key != ConsoleKey.Enter);
+                   
+                    int psw = int.Parse(pass);
+                 
+
+                    string passC = string.Empty;
+                    ConsoleKey key2;
+                    Console.WriteLine();
                     Console.WriteLine("Conferma Password");
-                    int Confirmedpsw = int.Parse(Console.ReadLine());
+                    do
+                    {
+                        var keyInfo = Console.ReadKey(intercept: true);
+                        key2 = keyInfo.Key;
+
+                        if (key2 == ConsoleKey.Backspace && passC.Length > 0)
+                        {
+                            Console.Write("\b \b");
+                        }
+                        else if (!char.IsControl(keyInfo.KeyChar))
+                        {
+                            Console.Write("*");
+                            passC += keyInfo.KeyChar;
+                        }
+                    } while (key2 != ConsoleKey.Enter);
+                    
+                    int Confirmedpsw = int.Parse(passC);
                     if (psw != Confirmedpsw)
                     {
+                        Console.WriteLine();
                         Console.WriteLine("Le password non corrispondono");
                         Menu();
                     }
                     else
                     {
+                        Console.WriteLine();
                         Console.WriteLine("Utente loggato");
                         Utente user = new Utente(username, psw, Confirmedpsw);
                         DateTime userLogData = DateTime.Now;
@@ -104,7 +146,9 @@ namespace LogIn_LogOut
             }
             else if (choice == "5")
             {
-
+                Console.WriteLine("Chiusura programma in corso... premi Invio per confermare");
+                Console.ReadLine();
+                Environment.Exit(0);
             }
             else
             {
